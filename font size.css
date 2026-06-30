@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+h1{
+font-size:50px;
+}
+
+h2{
+font-size:35px;
+}
+
+p{
+font-size:20px;
+}
+
+small{
+font-size:12px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Main Heading</h1>
+
+<h2>Sub Heading</h2>
+
+<p>
+This paragraph has medium font size.
+</p>
+
+<small>This text is small.</small>
+
+</body>
+</html>
