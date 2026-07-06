@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(242, 237, 237);
+}
+
+.btn{
+    margin-top: 10%;
+    margin-left: 40%;
+    padding: 10px 20px;
+    background-color: #fffef9;
+    color: #0b5497;
+    border: 1px solid #0b5497;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: cursive;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color:#0b5497 ;
+    color:#fffef9;
+    border: 2px solid #fffef9;
+    transform: scale(1.1);
+}
