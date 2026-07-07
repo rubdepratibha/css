@@ -1,0 +1,57 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selector */
+p {
+    color: aqua;
+    text-align: center;
+}
+
+/* ID Selector */
+#title {
+    color: brown;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ID Selector */
+#box {
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid red;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightyellow;
+}
+
+/* Class Selector */
+.box {
+    width: 700px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid black;
+    text-align: center;
+    color: aqua;
+}
+
+/* Image Selector */
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Group Selector */
+h1,
+p {
+    text-align: center;
+}
+
+/* Hover Selector */
+.box:hover {
+    background-color: lightgray;
+}
