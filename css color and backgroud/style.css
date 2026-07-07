@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("images.jfif"); /* Update with the correct image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    color: aqua;
+    font-size: 60px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgba(255, 140, 0, 0.5);
+    width: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px blue;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+li:last-child {
+    border-bottom: none;
+}
